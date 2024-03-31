@@ -1,0 +1,108 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+    background-image: url('swim2.png'); /* Add the path to your image */
+    background-size: cover; /* Cover the entire header area */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Keep the background fixed as the page scrolls */
+    color: #fff;
+    padding: 2em 1em; /* Increase padding for better visibility */
+    text-align: center;
+    position: relative;
+    height: 400px; /* Increase the height of the header area */
+    display: flex; /* Add flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+  
+}
+header h1 {
+  font-size: 4.5em;
+  color: #070c09; /* Color of the title */
+  margin: 0; /* Remove default margin */
+}
+
+nav {
+  background-color:#96D4D4;
+    text-align: right;
+    position: fixed; /* Set the position to fixed */
+    top: 0; /* Position it at the top of the viewport */
+    width: 100%; /* Set the width to 100% to span the entire viewport */
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+
+a {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+}
+a:hover {
+  background-color: #555;
+}
+
+article {
+  margin-top: 20px;
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  border: 2px solid #96D4D4;
+}
+
+th, td {
+  border: 1px solid #96D4D4;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #96D4D4;
+  color: #fff;
+}
+
+img {
+  max-width: 100px;
+  height: auto;
+}
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+}
+
+button {
+  padding: 10px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
