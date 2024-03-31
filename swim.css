@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    background-image: url('swim2.png'); /* Add the path to your image */
+    background-image: url('https://github.com/Krupali639/Krupali639.github.io/blob/main/swim2.png'); /* Add the path to your image */
     background-size: cover; /* Cover the entire header area */
     background-position: center;
     background-repeat: no-repeat;
